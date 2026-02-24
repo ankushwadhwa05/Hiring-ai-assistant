@@ -2,7 +2,7 @@
 # AI Hiring Assistant
 
 ## Project Overview
-The Talent Scout Hiring Assistant is an intelligent, conversational AI chatbot designed for a fictional recruitment agency specializing in technology placements. Built to handle the initial screening of candidates, the bot dynamically gathers essential biographical data before seamlessly pivoting to conduct a customized technical assessment based strictly on the candidate's declared tech stack. 
+The AI Hiring Assistant is an intelligent, conversational AI chatbot designed for a fictional recruitment agency specializing in technology placements. Built to handle the initial screening of candidates, the bot dynamically gathers essential biographical data before seamlessly pivoting to conduct a customized technical assessment based strictly on the candidate's declared tech stack. 
 
 ## Features
 * **Dynamic Conversation Flow:** Transitions intelligently from data collection to technical screening.
