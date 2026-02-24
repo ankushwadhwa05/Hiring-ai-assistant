@@ -267,7 +267,7 @@ if prompt := st.chat_input("Type your message here..."):
                 st.markdown(bot_reply)
                 st.session_state.messages.append({"role": "model", "content": bot_reply})
                 
-           except Exception as e:
+            except Exception as e:
                 error_msg = str(e).lower()
                 if "429" in error_msg or "quota" in error_msg or "rate limit" in error_msg:
                     st.warning("The AI is thinking a bit too fast! We hit the free-tier rate limit (15 messages/minute). Please wait 60 seconds and try your message again.")
